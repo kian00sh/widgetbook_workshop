@@ -28,8 +28,7 @@ class WidgetbookApp extends StatelessWidget {
       addons: [
         DeviceFrameAddon(
           devices: [
-            Devices.ios.iPhone13,
-            Devices.ios.iPad,
+            ...Devices.all,
           ],
           initialDevice: Devices.ios.iPhone13,
         ),
